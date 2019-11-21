@@ -22,7 +22,7 @@ public class DouTest extends TestBase {
                 .shouldSeeSelectedCity("Киев")
                 .shouldSeeSelectedJob("Project manager")
                 .shouldSeeSelectedPeriod("декабрь 2011")
-                .shouldSeeMaxSalary("$3000");
+                .shouldSeeMaxSalary("3000");
     }
 
     @Test

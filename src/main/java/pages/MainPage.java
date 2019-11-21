@@ -20,4 +20,5 @@ public class MainPage {
         tabsForm.find(Selectors.byText(tabName.getName())).click();
         return page;
     }
+
 }

@@ -2,7 +2,7 @@
 <suite name="test run" parallel="none">
     <test name="my run">
         <classes>
-             <class name="tests.DouTest"/>
+             <class name="tests.CheckSalaryTest"/>
         </classes>
     </test>
 </suite>

@@ -19,6 +19,7 @@ public class CompaniesPage extends MainPage {
 
     public CompaniesPage searchCompany (String companyName) {
         searchInput.setValue(companyName);
+        $x("//input[@class='btn-search']").click();
         $$(".l-items > li[class='l-company'] .cn-a").first().shouldHave(Condition.exactText(companyName));
         return this;
     }
