@@ -9,8 +9,6 @@ import pages.SalariesPage;
 
 public class CheckSalaryTest extends TestBase {
 
-    private Object WebDriver;
-
     @BeforeMethod(alwaysRun = true)
     public void before() {
         createDriver();
